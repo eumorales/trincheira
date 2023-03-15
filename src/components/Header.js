@@ -43,10 +43,11 @@ const Header = () => {
           mr="2"
         ></IconButton>
       )}
-      <Image src="https://gilbertomorales.com/trincheira.png" alt="me" width="500" height="20" />
+      <text>Fazenda Trincheira</text>
+      
       <Flex ml="auto">
         <HStack>
-          <text> </text>
+        <Image allign="" src="https://gilbertomorales.com/trincheira.png" alt="me" width="500" height="20" />
         </HStack>
       </Flex>
     </Flex>

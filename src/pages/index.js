@@ -110,7 +110,7 @@ const Produtos = () => {
               <Thead>
                 <Tr>
                   <Th fontWeight="bold" fontSize="14px">
-                    Nome
+                    Categoria
                   </Th>
                   <Th></Th>
                 </Tr>

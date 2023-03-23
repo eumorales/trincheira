@@ -123,7 +123,7 @@ const StockEntries = () => {
               <Thead>
                 <Tr>
                   <Th fontWeight="bold" fontSize="14px">
-                    Nome
+                    Categoria
                   </Th>
                   <Th fontWeight="bold" fontSize="14px">
                     Quantidade

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+
+    margin-left: 20px;
+}
+
+header {
+    background-color: #f5f5f5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.operation-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.operation-selection button {
+    background-color: #c4c4c4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.operation-selection button.clicked {
+    background-color: #4CAF50;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 3%;
+    margin-top: 10px;
+}
+
+button#registrarBtn, button#downloadPDFBtn {
+    background-color: #f3ab04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button#registrarBtn {
+
+    margin-top: 25px;
+    
+
+}
+
+button#registrarBtn:hover, button#downloadPDFBtn:hover {
+    background-color: #d49404;
+}
+
+ul#historico {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+ul#historico li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ff0000;
+    padding: 0;
+    margin-left: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    color: #c00000;
+}

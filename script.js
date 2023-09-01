@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             selectedOperation = '';
             updateButtonStyles();
         } else {
-            alert('Preencha a categoria, a quantidade e a operação.');
+            alert('Faltou preencher algum campo.');
         }
     });
 
